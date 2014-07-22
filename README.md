@@ -28,11 +28,11 @@ To run the script, in the Console windoow of RStudio, check your working directo
 
 During program execution, you will see the following output as the script works:
 
-[run_analysis.R] Getting and Cleaning Data Project 
+```[run_analysis.R] Getting and Cleaning Data Project 
 [run_analysis.R] Author: Jonah Wong 
 [run_analysis.R] --- 
 [run_analysis.R] Starting up. 
-[run_analysis.R] Downloading dataset from internet to:  working.dir/Course_Project_ Current Date and Time .zip 
+[run_analysis.R] Downloading dataset from internet to:  working.dir/Course_Project_ `Current Date and Time` .zip 
 ...... Downloading File information .......
 [run_analysis.R]   reading features labels... 
 [run_analysis.R]   reading activities labels... 
@@ -51,5 +51,5 @@ During program execution, you will see the following output as the script works:
 [run_analysis.R] Joining datasets. 
 [run_analysis.R] Selecting features 
 [run_analysis.R] Splitting by activity and subject, applying mean to all the measurements, and combining to a new tidy dataset 
-[run_analysis.R] Saving tidy data to: working.dir/UCI HAR Dataset Means by Subject and Activity.txt 
+[run_analysis.R] Saving tidy data to: working.dir/UCI HAR Dataset Means by Subject and Activity.txt ```
 
