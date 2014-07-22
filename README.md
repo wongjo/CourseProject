@@ -33,7 +33,7 @@ During program execution, you will see the following output as the script works:
 [run_analysis.R] Author: Jonah Wong
 [run_analysis.R] --- 
 [run_analysis.R] Starting up. 
-[run_analysis.R] Downloading dataset from internet to:  working.dir/Course_Project_ **Current Date and Time** .zip
+[run_analysis.R] Downloading dataset from internet to:  working.dir/Course_Project_ Current Date and Time .zip
 
 ...... Downloading File information .......
 
@@ -57,4 +57,15 @@ During program execution, you will see the following output as the script works:
 [run_analysis.R] Saving tidy data to: working.dir/UCI HAR Dataset Means by Subject and Activity.txt 
 ```
 
+## Process
 
+For both the test and train datasets, produce an interim dataset:
+Extract the mean and standard deviation features (listed in CodeBook.md, section 'Extracted Features'). This is the values table.
+Get the list of activities.
+Put the activity labels (not numbers) into the values table.
+Get the list of subjects.
+Put the subject IDs into the values table.
+Join the test and train interim datasets.
+Put each variable on its own row.
+Rejoin the entire table, keying on subject/acitivity pairs, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
+Write the clean dataset to disk.
