@@ -11,3 +11,5 @@ run_analysis.R program in R will download the original zipped Samsung data files
 read both test and training data text files from the zipped archive, combine into a tidy raw dataset file,
 then generate a means summary for the means and standard deviation data, by subject and by activity, with the file name:
 UCI HAR Dataset Means by Subject and Activity.txt according to the Hadley Wickham tidy dataset definitions at: http://vita.had.co.nz/papers/tidy-data.pdf
+
+CodeBook.txt is the data dictionary for UCI HAR Dataset Means by Subject and Activity.txt
