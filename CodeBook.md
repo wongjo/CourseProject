@@ -1,4 +1,5 @@
-# Data Dictionary for UCI HAR Dataset Means by Subject and Activity.txt
+# Data Dictionary
+## UCI HAR Dataset Means by Subject and Activity.txt
 
 **1	Activity**
 Activity Recorded by Device
