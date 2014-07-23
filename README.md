@@ -6,7 +6,7 @@ Repository for Course Project files for the Getting and Cleaning Data course
 ##Summary
 [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted Samsung smartphone with embedded inertial sensors.
+**Abstract:** Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted Samsung smartphone with embedded inertial sensors.
 
 run_analysis.R program in R will download the original zipped Samsung data files from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, read both test and training data text files from the zipped archive, combine into a tidy raw dataset file, then generate a means summary for the selected means and standard deviation data, by subject and by activity, with the file name: UCI HAR Dataset Means by Subject and Activity.txt according to the [Hadley Wickham tidy dataset](http://vita.had.co.nz/papers/tidy-data.pdf) definitions.
 
@@ -59,13 +59,12 @@ During program execution, you will see the following output as the script works:
 
 ## Process
 
-For both the test and train datasets, produce an interim dataset:
-Extract the mean and standard deviation features (listed in CodeBook.md, section 'Extracted Features'). This is the values table.
-Get the list of activities.
-Put the activity labels (not numbers) into the values table.
-Get the list of subjects.
-Put the subject IDs into the values table.
-Join the test and train interim datasets.
-Put each variable on its own row.
-Rejoin the entire table, keying on subject/acitivity pairs, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
-Write the clean dataset to disk.
+1. Get the list of activities.
+2. Get the list of subjects.
+3. For both the test and train datasets, produce an interim dataset:
+**3. Put the activity labels (not numbers) into the interim dataset.
+**3. Put the subject IDs into the interim dataset.
+4. Join the test and train interim datasets.
+5. Extract the mean and standard deviation features. This is the selected dataset.
+6. Split the selected dataset, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
+7. Write the clean dataset to disk.
