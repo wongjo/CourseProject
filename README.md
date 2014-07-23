@@ -67,8 +67,8 @@ During program execution, you will see the following output in the RStudio Conso
 1. Get the list of activities.
 2. Get the list of subjects.
 3. For both the test and train datasets, produce an interim dataset:
-..4. Put the activity labels (not numbers) into the interim dataset.
-..5. Put the subject IDs into the interim dataset.
+  4. Put the activity labels (not numbers) into the interim dataset.
+  5. Put the subject IDs into the interim dataset.
 6. Join the test and train interim datasets.
 7. Extract the mean and standard deviation features. This is the selected dataset.
 8. Split the selected dataset, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
