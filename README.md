@@ -24,13 +24,14 @@ The run_analysis.R program script does the following:
 
 ## Running the script
 
-To run the script, 
-1. in the Console windoow of RStudio, check your working directory with the `getwd()` command.
-2. Use `setwd(working.dir)` for working.dir appropriately. 
-3. Copy the script to working.dir 
-4. Use the command: `source('run_analysis.R')`. 
+To run the script:
 
-During program execution, you will see the following output in the Console:
+1. In the Console windoow of RStudio, check your working directory with the getwd() command.
+2. Use setwd(working.dir) for working.dir appropriately. 
+3. Copy the script to working.dir
+4. Use the command: source('run_analysis.R'). 
+
+During program execution, you will see the following output in the RStudio Console:
 
 ```
 [run_analysis.R] Getting and Cleaning Data Project
@@ -66,9 +67,9 @@ During program execution, you will see the following output in the Console:
 1. Get the list of activities.
 2. Get the list of subjects.
 3. For both the test and train datasets, produce an interim dataset:
-**3. Put the activity labels (not numbers) into the interim dataset.
-**3. Put the subject IDs into the interim dataset.
-4. Join the test and train interim datasets.
-5. Extract the mean and standard deviation features. This is the selected dataset.
-6. Split the selected dataset, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
-7. Write the clean dataset to disk.
+..4. Put the activity labels (not numbers) into the interim dataset.
+..5. Put the subject IDs into the interim dataset.
+6. Join the test and train interim datasets.
+7. Extract the mean and standard deviation features. This is the selected dataset.
+8. Split the selected dataset, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
+9. Write the clean dataset to disk.
