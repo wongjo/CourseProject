@@ -32,7 +32,7 @@ To run the script:
 4. Use the command: *source('run_analysis.R')*. 
 
 During program execution, you will see the following output in the RStudio Console:
-
+<span style="color:##FE2E2E">...... Downloading File information .......</span style>
 ```
 [run_analysis.R] Getting and Cleaning Data Project
 [run_analysis.R] Author: Jonah Wong
