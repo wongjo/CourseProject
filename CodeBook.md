@@ -2,6 +2,7 @@
 
 **1	Activity**
 Activity Recorded by Device
+
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
@@ -11,7 +12,7 @@ Activity Recorded by Device
 
 **2	ID**
 Subject Recorded by Device
-1..30
+_1..30_
 
 **3	tBodyAcc.mean...X**
 mean of mean estimated time of body acceleration in x-axis
