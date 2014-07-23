@@ -26,10 +26,10 @@ The run_analysis.R program script does the following:
 
 To run the script:
 
-1. In the Console windoow of RStudio, check your working directory with the getwd() command.
-2. Use setwd(working.dir) for working.dir appropriately. 
+1. In the Console windoow of RStudio, check your working directory with the _getwd()_ command.
+2. Use _setwd(working.dir)_ for working.dir appropriately. 
 3. Copy the script to working.dir
-4. Use the command: source('run_analysis.R'). 
+4. Use the command: *source('run_analysis.R')*. 
 
 During program execution, you will see the following output in the RStudio Console:
 
@@ -40,7 +40,7 @@ During program execution, you will see the following output in the RStudio Conso
 [run_analysis.R] Starting up. 
 [run_analysis.R] Downloading dataset from internet to:  working.dir/Course_Project_ Current Date and Time .zip
 
-...... Downloading File information .......
+<span style="color:##FE2E2E">...... Downloading File information .......</span style>
 
 [run_analysis.R]   reading features labels... 
 [run_analysis.R]   reading activities labels... 
@@ -67,7 +67,7 @@ During program execution, you will see the following output in the RStudio Conso
 1. Get the list of activities.
 2. Get the list of subjects.
 3. For both the test and train datasets, produce an interim dataset:
-  4. Put the activity labels (not numbers) into the interim dataset.
+  4. Put the activity labels into the interim dataset.
   5. Put the subject IDs into the interim dataset.
 6. Join the test and train interim datasets.
 7. Extract the mean and standard deviation features. This is the selected dataset.
