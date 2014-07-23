@@ -33,8 +33,6 @@ To run the script:
 
 During program execution, you will see the following output in the RStudio Console:
 
-<span style="color:##FE2E2E">...... Downloading File information .......</span style>
-
 ```
 [run_analysis.R] Getting and Cleaning Data Project
 [run_analysis.R] Author: Jonah Wong
@@ -42,7 +40,7 @@ During program execution, you will see the following output in the RStudio Conso
 [run_analysis.R] Starting up. 
 [run_analysis.R] Downloading dataset from internet to:  working.dir/Course_Project_ Current Date and Time .zip
 
-<span style="color:##FE2E2E">...... Downloading File information .......</span style>
+..... Downloading File information .....
 
 [run_analysis.R]   reading features labels... 
 [run_analysis.R]   reading activities labels... 
