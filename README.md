@@ -8,9 +8,9 @@ Repository for Course Project files for the Getting and Cleaning Data course
 
 **Abstract:** Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted Samsung smartphone with embedded inertial sensors.
 
-run_analysis.R program in R will download the original zipped Samsung data files from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, read both test and training data text files from the zipped archive, combine into a tidy raw dataset file, then generate a means summary for the selected means and standard deviation data, by subject and by activity, with the file name: UCI HAR Dataset Means by Subject and Activity.txt according to the [Hadley Wickham tidy dataset](http://vita.had.co.nz/papers/tidy-data.pdf) definitions.
+run_analysis.R program in R will download the original zipped Samsung data files from: [the original source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), read both test and training data text files from the zipped archive, combine into a tidy raw dataset file, then generate a means summary for the selected means and standard deviation data, by subject and by activity, with the file name: `UCI HAR Dataset Means by Subject and Activity.txt` according to the [Hadley Wickham tidy dataset](http://vita.had.co.nz/papers/tidy-data.pdf) definitions.
 
-CodeBook.txt is the data dictionary for UCI HAR Dataset Means by Subject and Activity.txt
+[CodeBook.md](https://github.com/wongjo/CourseProject/CodeBook.md) is the data dictionary for `UCI HAR Dataset Means by Subject and Activity.txt`
 
 ##run_analysis.R
 
@@ -24,9 +24,13 @@ The run_analysis.R program script does the following:
 
 ## Running the script
 
-To run the script, in the Console windoow of RStudio, check your working directory with the getwd() command, and use setwd(working.dir) to working.dir appropriately. Copy the script to working.dir and use the command: source('run_analysis.R'). 
+To run the script, 
+1. in the Console windoow of RStudio, check your working directory with the `getwd()` command.
+2. Use `setwd(working.dir)` for working.dir appropriately. 
+3. Copy the script to working.dir 
+4. Use the command: `source('run_analysis.R')`. 
 
-During program execution, you will see the following output as the script works:
+During program execution, you will see the following output in the Console:
 
 ```
 [run_analysis.R] Getting and Cleaning Data Project
